@@ -1,12 +1,9 @@
 float cijfer  = 9;
-Boolean eersteCijfer = false;
-Boolean tweedeCijfer = true;
+float cijfertwee= 5.5;
+
 boolean diploma = false;
-if(eersteCijfer == true && tweedeCijfer == true ){
 
-}
-
-if(cijfer >= 8){
+if(cijfer >= 9 && cijfertwee <= 5.5){
   diploma = true;
 }
 
