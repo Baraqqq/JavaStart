@@ -1,1 +1,28 @@
 
+import controlP5.*;
+
+ControlP5 cp; 
+
+Button number1;
+Button number2;
+
+void setup(){
+  size(900,900);
+  
+  cp = new ControlP5(this);
+  
+  number1 = cp.addButton("number1");
+  number1.setCaptionLabel("Click me");
+  number2 = cp.addButton("number2");
+  number2.setCaptionLabel("Don't Click me");
+}
+
+void draw(){
+}
+
+void number1(){
+  println("Someone clicked on button number one!");
+}
+void number2(){
+  println("Someone clicked on me ERROR");
+}
