@@ -1,6 +1,5 @@
 String vaat = "21";
 
-
 import controlP5.*;
 
 ControlP5 cp;
@@ -24,9 +23,9 @@ void setup(){
  text1 = cp
            .addTextfield("TextInput1")
            .setPosition(100,25)
-           .setSize(60,20)
-           .setText("  Enter Text.")
-           .setCaptionLabel("Enter your name.")
+           .setSize(90,20)
+           .setText("  Enter valid price.")
+           .setCaptionLabel(".")
            .setColorLabel(color(255,0,0));
 }
 
