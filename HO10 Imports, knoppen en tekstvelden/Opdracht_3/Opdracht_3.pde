@@ -1,4 +1,5 @@
-String vaat = "21";
+float vat = 1.21;
+float total = 0;
 
 import controlP5.*;
 
@@ -31,10 +32,11 @@ void setup(){
 
 
 
+
 void draw(){
 }
 
 void number1(){
-
-  println("Someone typed his name called: " + text1.getText());
+  total = float(text1.getText()) * vat;
+  println("TOTAL PRICE WITH VAT IS: " + total);
 }
