@@ -156,11 +156,12 @@ void setup(){
     
 //textfield
   textfield1 = cp
+     .setColorForeground(color(0,0,0))
     .addTextfield("TextInput1")
     .setPosition(10, 310)
-    .setColorLabel(color(74,71,71))
     .setSize(230, 30)
     .setText("")
+    .setColorBackground(color(0,0,0))
     .setCaptionLabel("");
 
 }
