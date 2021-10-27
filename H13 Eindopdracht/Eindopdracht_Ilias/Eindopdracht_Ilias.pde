@@ -31,68 +31,68 @@ Button button19;
 Textfield textfield1;
 
 void setup(){
-  size(250,640);
+  size(250,350);
   background(0);
   cp = new ControlP5(this);
  
   
   //buttons 7 tot 9
   button1 = cp.addButton("button1");
-    button1.setPosition(10,410);
+    button1.setPosition(10,110);
     button1.setColorBackground(color(74,71,71));
     button1.setSize(50,50);
     button1.setCaptionLabel("7");
     
   button2 = cp.addButton("button2");
-    button2.setPosition(70,410);
+    button2.setPosition(70,110);
     button2.setColorBackground(color(74,71,71));
     button2.setSize(50,50);
     button2.setCaptionLabel("8");
 
   button3 = cp.addButton("button3");
-    button3.setPosition(130,410);
+    button3.setPosition(130,110);
     button3.setColorBackground(color(74,71,71));
     button3.setSize(50,50);
     button3.setCaptionLabel("9");
  // 4 tot 6   
   button5 = cp.addButton("button5");
-    button5.setPosition(10,465);
+    button5.setPosition(10,170);
     button5.setColorBackground(color(74,71,71));
     button5.setSize(50,50);
     button5.setCaptionLabel("4");    
     
   button6 = cp.addButton("button6");
-    button6.setPosition(70,465);
+    button6.setPosition(70,170);
     button6.setColorBackground(color(74,71,71));
     button6.setSize(50,50);
     button6.setCaptionLabel("5");      
     
   button7 = cp.addButton("button7");
-    button7.setPosition(130,465);
+    button7.setPosition(130,170);
     button7.setColorBackground(color(74,71,71));
     button7.setSize(50,50);
     button7.setCaptionLabel("6");      
 //1 tot 3
   button8 = cp.addButton("button8");
-    button8.setPosition(10,520);
+    button8.setPosition(10,230);
     button8.setColorBackground(color(74,71,71));
     button8.setSize(50,50);
     button8.setCaptionLabel("1");         
     
   button9 = cp.addButton("button9");
-    button9.setPosition(70,520);
+    button9.setPosition(70,230);
     button9.setColorBackground(color(74,71,71));
     button9.setSize(50,50);
     button9.setCaptionLabel("2");         
     
    button10 = cp.addButton("button10");
-    button10.setPosition(130,520);
+    button10.setPosition(130,230);
     button10.setColorBackground(color(74,71,71));
     button10.setSize(50,50);
     button10.setCaptionLabel("3");      
  // C
   button4 = cp.addButton("button4");
-    button4.setPosition(10,355);
+    button4.setPosition(10,50);
     button4.setColorBackground(color(110, 106, 106));
     button4.setSize(50,50);
     button4.setCaptionLabel("AC");      
@@ -100,55 +100,55 @@ void setup(){
  // min plus en delen   
 
   button18 = cp.addButton("button18");
-    button18.setPosition(70,355);
+    button18.setPosition(70,50);
     button18.setColorBackground(color(110, 106, 106));
     button18.setSize(50,50);
     button18.setCaptionLabel("+/-");  
     
    button19 = cp.addButton("button19");
-    button19.setPosition(130,355);
+    button19.setPosition(130,50);
     button19.setColorBackground(color(110, 106, 106));
     button19.setSize(50,50);
     button19.setCaptionLabel("%");    
     
   button11 = cp.addButton("button11");
-    button11.setPosition(185,355);
+    button11.setPosition(185,50);
     button11.setColorBackground(color(217, 112, 48));
     button11.setSize(50,50);
     button11.setCaptionLabel("/");     
   
    button12 = cp.addButton("button12");
-    button12.setPosition(185,410);
+    button12.setPosition(185,110);
     button12.setColorBackground(color(217, 112, 48));
     button12.setSize(50,50);
     button12.setCaptionLabel("X");   
  
    button13 = cp.addButton("button13");
-    button13.setPosition(185,465);
+    button13.setPosition(185,170);
     button13.setColorBackground(color(217, 112, 48));
     button13.setSize(50,50);
     button13.setCaptionLabel("-");
     
   button17 = cp.addButton("button17");
-    button17.setPosition(185,520);
+    button17.setPosition(185,230);
     button17.setColorBackground(color(217, 112, 48));
     button17.setSize(50,50);
     button17.setCaptionLabel("+");     
     
    button16 = cp.addButton("button16");
-    button16.setPosition(185,575);
+    button16.setPosition(185,290);
     button16.setColorBackground(color(217, 112, 48));
     button16.setSize(50,50);
     button16.setCaptionLabel("=");    
  // 0 en komma   
   button14 = cp.addButton("button14");
-    button14.setPosition(10,575);
+    button14.setPosition(10,290);
     button14.setColorBackground(color(74, 71, 71));
     button14.setSize(115,50);
     button14.setCaptionLabel("0");    
    
   button15 = cp.addButton("button15");
-    button15.setPosition(130,575);
+    button15.setPosition(130,290);
     button15.setColorBackground(color(74,71,71));
     button15.setSize(50,50);
 
@@ -158,7 +158,7 @@ void setup(){
   textfield1 = cp
      .setColorForeground(color(0,0,0))
     .addTextfield("TextInput1")
-    .setPosition(10, 310)
+    .setPosition(10, 10)
     .setSize(230, 30)
     .setText("")
     .setColorBackground(color(0,0,0))
